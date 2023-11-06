@@ -43,10 +43,97 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+li {
+  /* nav-mobile */
+  font-family: Roboto Flex;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  /* h1-mobile */
+  font-family: Ramabhadra;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+
+  /* h2-mobile */
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+h3 {
+  /* h3-mobile */
+  font-family: Roboto Flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.marquee {
+  /* marquee-mobile */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 20px;
+}
+
+.logo {
+  text-align: center;
+}
+
+nav {
+  padding-top: 40px;
+  margin: 20px;
+}
+
+p {
+  color: var(--buttons, #000);
+  text-align: center;
+
+  /* concept-p-mobile */
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+em {
+  color: var(--buttons, #bebebe);
+
+  /* concept-p-mobile */
+  font-family: Roboto Flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
