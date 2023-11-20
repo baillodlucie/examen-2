@@ -23,12 +23,10 @@
         <div class="row">
           <div class="col-12">
             <nav>
-              <ul>
-                <li>Events</li>
-                <li>cartes</li>
-                <li>Réservations</li>
-                <li>Contact</li>
-              </ul>
+              <a href="#">Events</a>
+              <a href="#cartes">cartes</a>
+              <a href="#reservations">Réservations</a>
+              <a href="#contact">Contact</a>
             </nav>
           </div>
         </div>
@@ -175,18 +173,20 @@
         </div>
         <div class="row">
           <div class="col-12 container-buttons">
-            <button class="main-buttons">Carte complète</button>
+            <button class="main-buttons" id="cartes">Carte complète</button>
           </div>
         </div>
         <div class="row">
           <div class="col-12 container-buttons">
-            <button class="main-buttons">Réservations</button>
+            <button class="main-buttons reservations" id="reservations">
+              Réservations
+            </button>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="container-fluid">
+      <div class="container-fluid footer">
         <div class="row">
           <div class="col-12 col-lg-6 order-lg-2 newsletter-container">
             <h4 class="newsletter-title">newsletter</h4>
@@ -208,7 +208,7 @@
             </div>
           </div>
           <div class="col-6 offset-3 col-lg-6 order-lg-1 offset-lg-0 contact">
-            <div class="contact-text">
+            <div class="contact-text" id="contact">
               <div class="contact-line">
                 <div><em class="days">LUN-VEN</em></div>
                 <div>19h-00h</div>
