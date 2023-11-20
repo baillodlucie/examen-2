@@ -121,6 +121,7 @@ h4 {
 
 .logo {
   text-align: center;
+  margin: 0px;
 }
 
 nav {
@@ -151,7 +152,7 @@ em {
   line-height: normal;
 }
 
-button {
+.main-buttons {
   /* buttons-mobile */
   font-family: Roboto Flex;
   font-size: 16px;
@@ -196,7 +197,6 @@ p {
   font-weight: 400;
   line-height: normal;
   padding-top: 10px;
-  padding-bottom: 30px;
 }
 
 footer {
@@ -222,4 +222,70 @@ footer {
 
 footer {
   text-align: center;
+}
+
+.txt-tartines,
+.txt-cocktails {
+  padding-bottom: 30px;
+}
+
+input {
+  background: #d9d9d9;
+  color: #000;
+  margin: 20px;
+  border-radius: 40px;
+  padding: 10px 80px 10px 80px;
+}
+
+.champ-mail {
+  color: var(--buttons, #000);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.icons {
+  padding: 30px 10px 50px 10px;
+}
+
+.contact {
+  margin-top: 30px;
+}
+.contact-text {
+  text-align: justify;
+}
+
+.contact-line {
+  display: flex;
+}
+
+.contact-line div {
+  width: 50%;
+  color: var(--buttons, #000);
+  font-family: Roboto Flex;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.adress,
+.number {
+  text-align: justify;
+}
+
+.subscription {
+  background-color: #000;
+  color: white;
+  color: #fff;
+
+  /* newsletter-button-p */
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 10px 80px 10px 80px;
 }

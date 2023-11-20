@@ -87,7 +87,7 @@
               alt="Une image de la tartine anti-déprime"
             />
             <h3>L'anti-déprime</h3>
-            <p>
+            <p class="txt-tartines">
               Tartine avec triple dose de chocolat accompagné de ses fraises et
               de double crème.
             </p>
@@ -98,7 +98,7 @@
               alt="Une image de la tartine romantique"
             />
             <h3>La romantique</h3>
-            <p>
+            <p class="txt-tartines">
               Une tartine légère et délicate avec des ingrédients doux comme la
               figue, le fromage de chèvre et le miel.
             </p>
@@ -109,7 +109,7 @@
               alt="Une image de la tartine méditérannéenne"
             />
             <h3>La méditerranéenne</h3>
-            <p>
+            <p class="txt-tartines">
               Tartine ensoleillée avec du houmous, des olives, des tomates
               séchées au soleil et du basilic frais.
             </p>
@@ -120,7 +120,7 @@
               alt="Une image de la tartine aventureuse"
             />
             <h3>L’aventureuse</h3>
-            <p>
+            <p class="txt-tartines">
               Une tartine audacieuse et épicée avec du chorizo, du piment, et de
               l'avocat.
             </p>
@@ -138,7 +138,7 @@
               alt="Une image du cocktail gag à la grenade"
             />
             <h3>Gags à la grenade</h3>
-            <p>
+            <p class="txt-cocktails">
               Un cocktail explosif de saveurs qui vous fait exploser de rire.
             </p>
           </div>
@@ -148,7 +148,7 @@
               alt="Une image du cocktail love potion"
             />
             <h3>La Love potion</h3>
-            <p>
+            <p class="txt-cocktails">
               Un mélange mystérieux de saveurs sucrées et fruitées pour susciter
               l'amour.
             </p>
@@ -159,7 +159,7 @@
               alt="Une image du cocktail enigmatique"
             />
             <h3>L’énigmatique</h3>
-            <p>Laisse toi surprendre par la vie.</p>
+            <p class="txt-cocktails">Laisse toi surprendre par la vie.</p>
           </div>
           <div class="col-6 col-lg-3">
             <img
@@ -167,7 +167,7 @@
               alt="Une image du cocktail épaule en soi"
             />
             <h3>Epaule en soie</h3>
-            <p>
+            <p class="txt-cocktails">
               Un mélange doux et apaisant de saveurs conçu pour vous offrir une
               épaule sur laquelle pleurer et trouver du réconfort.
             </p>
@@ -175,12 +175,12 @@
         </div>
         <div class="row">
           <div class="col-12 container-buttons">
-            <button>Carte complète</button>
+            <button class="main-buttons">Carte complète</button>
           </div>
         </div>
         <div class="row">
           <div class="col-12 container-buttons">
-            <button>Réservations</button>
+            <button class="main-buttons">Réservations</button>
           </div>
         </div>
       </div>
@@ -194,18 +194,48 @@
               Ne rate aucun de nos évènements et viens trouver l’amour de ta vie
               chez Soul Slices !
             </p>
+            <div class="mail">
+              <div class="container">
+                <input
+                  class="champ-mail"
+                  type="text"
+                  placeholder="monemail@gmail.com"
+                  name="name"
+                  required
+                />
+                <button class="subscription">Je m'inscris</button>
+              </div>
+            </div>
           </div>
-          <div class="col-6 offset-3 col-lg-6 order-lg-1 offset-lg-0">
-            <p class="contact-text"><em class="days">LUN-VEN</em> 19h-00h </br><em class="days">SAM</em> 19h-02h </br><em class="days">DIM</em> fermé</p>
-            <p>Rue de Lausanne 48</br>
-              1700 Fribourg</p>
-            <p> +41 26 660 12 34 </br>
+          <div class="col-6 offset-3 col-lg-6 order-lg-1 offset-lg-0 contact">
+            <div class="contact-text">
+              <div class="contact-line">
+                <div><em class="days">LUN-VEN</em></div>
+                <div>19h-00h</div>
+              </div>
+              <div class="contact-line">
+                <div><em class="days">SAM</em></div>
+                <div>19h-02h</div>
+              </div>
+              <div class="contact-line">
+                <div><em class="days">DIM</em></div>
+                <div>fermé</div>
+              </div>
+            </div>
+            <p class="adress">
+              Rue de Lausanne 48<br />
+              1700 Fribourg
+            </p>
+            <p class="number">
+              +41 26 660 12 34 <br />
               info@soulslices.ch
             </p>
-            <img src="img/icon-insta.png" 
-            alt="une icône Instagram">
-            <img src="img/icon-fb.png" 
-            alt="une icône Facebook">
+            <img
+              class="icons"
+              src="img/icon-insta.png"
+              alt="une icône Instagram"
+            />
+            <img class="icons" src="img/icon-fb.png" alt="une icône Facebook" />
           </div>
         </div>
       </div>
