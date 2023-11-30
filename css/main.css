@@ -122,6 +122,7 @@ nav {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 30px;
 }
 
 em {
@@ -159,9 +160,24 @@ em {
   padding-bottom: 30px;
 }
 
+@media (max-width: 600px) {
+  .newsletter-container {
+    background: #f3f1f1;
+    color: #000;
+  }
+}
+
 .newsletter-container {
-  background: #f3f1f1;
-  color: #000;
+  border-top: 2px solid black;
+}
+
+.newsletter-border {
+  border: 2px solid black;
+  margin: 30px;
+}
+.contact-container {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
 }
 
 .newsletter-text {
@@ -170,6 +186,7 @@ em {
   font-style: italic;
   font-weight: 400;
   line-height: normal;
+  text-align: center;
 }
 
 p {
@@ -183,6 +200,7 @@ p {
 
 footer {
   margin-top: 30px;
+  text-align: center;
 }
 
 .newsletter-title {
@@ -200,10 +218,6 @@ footer {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
-
-footer {
-  text-align: center;
 }
 
 .txt-tartines,
@@ -234,6 +248,7 @@ input {
 
 .contact {
   margin-top: 30px;
+  text-align: center;
 }
 
 .contact-line {
@@ -272,4 +287,10 @@ input {
 .more {
   text-align: right;
   text-decoration: underline #7c7c7c;
+}
+
+.coeur {
+  position: absolute;
+  top: 2485px;
+  right: 230px;
 }
