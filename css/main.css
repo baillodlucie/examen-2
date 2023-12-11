@@ -43,21 +43,12 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-h1 {
-  font-family: Ramabhadra;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  text-align: center;
+  font-size: 12px;
 }
 
 @media (min-width: 600px) {
-  h1 {
-    font-size: 128px;
+  nav {
+    font-size: 22px;
   }
 }
 
@@ -70,6 +61,12 @@ h2 {
   line-height: normal;
   text-transform: uppercase;
   padding: 20px;
+}
+
+@media (min-width: 600px) {
+  h2 {
+    font-size: 24px;
+  }
 }
 
 h3 {
@@ -99,8 +96,12 @@ h4 {
   text-transform: uppercase;
   border-top: 2px solid #000;
   border-bottom: 2px solid #000;
-  margin: none;
-  padding: 5px;
+}
+
+@media (min-width: 600px) {
+  .marquee {
+    font-size: 30px;
+  }
 }
 
 .logo {
@@ -151,6 +152,8 @@ em {
 
 .reservations {
   padding: 10px 33px 10px 33px;
+  margin: 20px;
+  margin-bottom: 30px;
 }
 
 .img-header {
@@ -165,13 +168,17 @@ em {
   }
 }
 
-.newsletter-container {
-  border-top: 2px solid black;
+@media (min-width: 600px) {
+  .newsletter-container {
+    border-top: 2px solid black;
+  }
 }
 
-.newsletter-border {
-  border: 2px solid black;
-  margin: 30px;
+@media (min-width: 600px) {
+  .newsletter-border {
+    border: 2px solid black;
+    margin: 30px;
+  }
 }
 
 .newsletter-text {
@@ -180,7 +187,15 @@ em {
   font-style: italic;
   font-weight: 400;
   line-height: normal;
-  text-align: center;
+  margin-bottom: 20px;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+@media (min-width: 600px) {
+  .newsletter-text {
+    font-size: 20px;
+  }
 }
 
 p {
@@ -199,6 +214,13 @@ footer {
 
 .newsletter-title {
   margin-top: 30px;
+}
+
+@media (min-width: 600px) {
+  .newsletter-title {
+    max-width: 60%;
+    margin-left: 30px;
+  }
 }
 
 .img-header {
@@ -233,6 +255,7 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 30px;
 }
 
 .icons {
@@ -247,6 +270,16 @@ input {
   align-items: center;
 }
 
+.contact-text {
+  padding-top: 50px;
+}
+
+@media (min-width: 600px) {
+  .contact-container {
+    border: 2px solid black;
+  }
+}
+
 .contact-line {
   display: flex;
   align-items: center;
@@ -259,6 +292,7 @@ input {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-align: left;
 }
 
 .adress,
@@ -282,10 +316,4 @@ input {
 .more {
   text-align: right;
   text-decoration: underline #7c7c7c;
-}
-
-.coeur {
-  position: absolute;
-  top: 2485px;
-  right: 230px;
 }
